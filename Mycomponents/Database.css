@@ -1,0 +1,45 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    /* padding: 20px; */
+    width: 50%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .table{
+    height: 500px;
+    padding: 20px;
+    margin: 20px 0px;
+  }
+  .btnright{
+    background-color: #073a71;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 14px;
+    margin-right: 20px;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    min-width: 10%;
+  }
+  .datePickerContainer {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+  }
+  .datePickerContainer label {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,115 @@
+.left{
+    text-align: left;
+    margin-left: 2rem;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    background-color: #073a71;
+}
+.left1{
+    text-align: left;
+    margin-left: 2rem;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    width: 40%;
+    background-color: #526981;
+}
+.anchordivs{
+    margin-left: 0.75rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding: 0px 0px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    caret-color: transparent;
+}
+.anchordivs2{
+    margin-left: 0.75rem;
+    /* padding-left: 0px; */
+    /* padding-right: 25px; */
+    /* padding: 6px 0px; */
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    caret-color: transparent;
+}
+.anchordivs1{
+    margin-left: 0;
+    padding: 0px 25px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    caret-color: transparent;
+}
+.anchordivs:hover,
+.anchordivs.active {
+    color: #073a71;
+    background-color: #fff;
+    cursor: pointer;
+
+    /* border-radius: 2rem ; */
+    text-align: center;
+}
+
+.anchordivs1:hover{
+    color: #073a71;
+    background-color: #fff;
+    cursor: pointer;
+}
+.anchordivs2:hover{
+    color: #073a71;
+    background-color: #fff;
+    cursor: pointer;
+}
+.Navbar{
+    background-color: #073a71;
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+}
+.Navbar1{
+    background-color: #526981;
+    display: flex;
+    justify-content: space-between;
+    height: 38px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.right{
+    width: 10%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #fff;
+}
+.righticon{
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right:hover{
+ border: 2px solid  #073a71;
+}
+.dropdown{
+    height: -10px;
+}
+.anchordivs.dropdown.active {
+    color: #073a71;
+    background-color: #fff;
+}
+
+
+
+
+

@@ -1,0 +1,11 @@
+.companydiv{
+    text-align: center;
+    /* background-color: lightblue; */
+    margin-bottom: 0px;
+    padding: 10px;
+    cursor: default;
+    caret-color: transparent;
+}
+h1{
+    color: #073a71;
+}
